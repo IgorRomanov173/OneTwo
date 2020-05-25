@@ -10,7 +10,7 @@ public class SecondTask {
         int lastNum = in.nextInt();
 
         // Ввести переменную i, пройти циклом диапазон введенных значений
-            for(int i = firstNum ; i <= lastNum ; ++i) {
+            for(int i = firstNum ; i <= lastNum ; i++) {
                 if(i % 15 == 0) {
                     System.out.println("FizzBuzz");
                 }
